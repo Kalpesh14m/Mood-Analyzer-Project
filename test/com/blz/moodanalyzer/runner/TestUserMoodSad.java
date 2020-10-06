@@ -9,8 +9,7 @@ public class TestUserMoodSad {
 	@Test
 	public void testSadMood_thenAssertionTrue() {
 		MoodAnalyzer mood = new MoodAnalyzer();
-		String flag = mood.analyseMood("I am in Sad Mood");
-		assertEquals("Sad", flag);
+		assertEquals("Sad", mood.analyseMood("I am in Sad Mood"));
 	}
 
 }
